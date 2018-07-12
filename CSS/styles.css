@@ -1,0 +1,76 @@
+h1 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 34pt;
+  color: black;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 48pt;
+  color: black;
+}
+
+h3 {
+  font-family: Georgia;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 9pt;
+  color: #808285;
+}
+
+h3 .a {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 11pt;
+  color: black;
+}
+
+h3 .b {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 9pt;
+  color: black;
+}
+
+h4 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 12pt;
+  color: black;
+}
+
+h5 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 18pt;
+  color: red;
+}
+
+h6 {
+  font-family: Helvetica;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14pt;
+  line-height: 16pt;
+  color: white;
+}
+
+p {
+  font-family: Georgia;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 18pt;
+  color: grey;
+}
+
+.a {
+  text-transform: uppercase;
+}

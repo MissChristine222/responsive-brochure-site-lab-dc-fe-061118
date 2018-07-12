@@ -1,0 +1,35 @@
+@media screen and (min-width: 0px) and (max-width: 999px) {
+    header {
+    height:200px;
+    width: 100vw;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+    header {
+    height:250px;
+    width: 100vw;
+    justify-content: center;
+  }
+}
+
+.flex-grid-logo {
+  display: flex;
+  height: 90px;
+  justify-content: center;
+  background-color: #000000;
+}
+
+.flex-grid-title {
+  display: flex;
+  height: 110px;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+
+.text-center {
+  text-align: center;
+}

@@ -1,0 +1,126 @@
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  main.container {
+  width: 90vw;
+  flex: 1 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
+
+  item {
+  margin-bottom: 24pt;
+  width: 90%;
+  }
+  
+  h1 {
+  font-size: 30pt;
+}
+
+}
+
+@media screen and (min-width: 451px) and (max-width: 599px) {
+  main.container {
+  width:90vw;
+  flex: 1 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
+
+  item {
+  margin-bottom: 30pt;
+  width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 999px) {
+  main.container {
+ 
+  width: 85vw;
+  flex: 1 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
+
+  item {
+  margin-bottom: 30pt;
+  width: 45%;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  main.container {
+ 
+  width: 82vw;
+  flex: 1 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
+
+  item {
+  margin-bottom: 40pt;
+  width: 30%;
+  }
+}
+
+@media screen and (min-width: 1801px) {
+  main.container {
+  width: 82vw;
+  flex: 1 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
+
+  item {
+  margin-bottom: 40pt;
+  width: 22%;
+  }
+}
+
+
+body {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+}
+
+
+span.a {
+    display: inline; /* the default for span */
+}
+
+img.thumb {
+ max-height: 100%;
+ max-width: 100%;
+}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:75%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+box.presentation {
+  background-color: #f3f3f3;
+}
+
+
