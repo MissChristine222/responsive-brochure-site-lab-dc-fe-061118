@@ -110,6 +110,7 @@ img.thumb {
     padding-bottom:75%;
     position:relative;
     height:0;
+    z-index: 0
 }
 .video-responsive iframe{
     left:0;
